@@ -23,16 +23,20 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-gray-50 pb-10">
+    <main className="min-h-screen  pb-10 bg-linear-to-b from-olive via-green-900 to-green-950">
       {/* Cabeçalho simples */}
-      <header className="bg-red-800 p-4 text-white text-center shadow-lg">
-        <h1 className="text-xl font-bold">Frios & Delícias</h1>
-        <p className="text-sm opacity-90">O melhor para sua noite</p>
+      <header className="p-4 text-white text-center flex flex-col items-center">
+        <Image
+          src="/logo.png"
+          alt="Logo Frios & Delícias"
+          width={150}
+          height={150}
+        />
       </header>
 
       {/* Lista de Produtos */}
       <div className="p-4">
-        <h2 className="text-lg font-semibold text-gray-800 mb-4">
+        <h2 className="text-lg font-semibold text-beige mb-4">
           Nosso Cardápio
         </h2>
 
@@ -44,7 +48,7 @@ export default function Home() {
               className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden"
             >
               {/* Foto do Produto */}
-              <div className="relative h-48 w-full">
+              <div className="relative h-30 w-full">
                 <Image
                   src={product.image}
                   alt={product.name}
