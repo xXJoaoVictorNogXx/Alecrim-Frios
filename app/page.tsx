@@ -5,8 +5,8 @@ export default function Home() {
   const products = [
     {
       id: 1,
-      name: "Tábua Romântica",
-      description: "Queijo brie, presunto parma, morangos e mel.",
+      name: "Tábua P",
+      description: "1 Tipo de Queijo, 1 Tipo de Uvas, morangos e mel.",
       price: 120.0,
       image: "/images/Tabua P.jpg",
       category: "Casal",
@@ -16,7 +16,7 @@ export default function Home() {
       name: "Tábua Família",
       description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
       price: 250.0,
-      image: "/images/tabua2.jpg",
+      image: "/images/Tabua M.jpg",
       category: "Família",
     },
     {
@@ -24,7 +24,7 @@ export default function Home() {
       name: "Tábua Família",
       description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
       price: 250.0,
-      image: "/images/tabua2.jpg",
+      image: "/images/Tabua G.jpg",
       category: "Família",
     },
     {
@@ -73,7 +73,7 @@ export default function Home() {
               key={product.id}
               className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden"
             >
-              <div className="relative h-48 w-full">
+              <div className="relative h-110 w-full">
                 <Image
                   src={product.image}
                   alt={product.name}
