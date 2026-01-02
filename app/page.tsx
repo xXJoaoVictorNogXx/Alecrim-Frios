@@ -94,7 +94,7 @@ export default function Home() {
                 </p>
 
                 <a
-                  href={`https://wa.me/+559988092492?text=Olá, quero pedir a ${product.name}`}
+                  href={`https://wa.me/+559988092492?text=Olá, quero pedir a ${product.name} ${product.image}`}
                   target="_blank"
                   className="mt-4 block w-full bg-green-600 text-white text-center py-3 rounded-lg font-serif hover:bg-green-700 transition"
                 >
