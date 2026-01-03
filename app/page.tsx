@@ -46,7 +46,7 @@ export default function Home() {
                   target="_blank"
                   className="mt-4 block w-full bg-green-600 text-white text-center py-3 rounded-lg font-serif hover:bg-green-700 transition"
                 >
-                  Pedir no WhatsApp
+                  Detalhes
                 </a>
               </div>
             </div>

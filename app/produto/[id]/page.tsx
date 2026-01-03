@@ -16,6 +16,14 @@ export default async function ProdutoPage({
 
   return (
     <main className="min-h-screen  pb-10 bg-linear-to-b from-olive via-green-900 to-green-950">
+      <header className="p-4 text-white text-center flex flex-col items-center">
+        <Image
+          src="/logo.png"
+          alt="Logo Frios & Delícias"
+          width={150}
+          height={150}
+        />
+      </header>
       <div className="p-4">
         <h2 className="text-lg font-serif text-beige mb-4">{product.name}</h2>
 
@@ -42,9 +50,7 @@ export default async function ProdutoPage({
               <a
                 href={
                   "https://wa.me/+559988092492?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20do%20produto:%20" +
-                  encodeURIComponent(product.name) +
-                  "%20-%20com%20a%20seguinte%20descrição:%20" +
-                  encodeURIComponent(product.description)
+                  encodeURIComponent(product.name)
                 }
                 target="_blank"
                 className="mt-4 block w-full bg-green-600 text-white text-center py-3 rounded-lg font-serif hover:bg-green-700 transition"
