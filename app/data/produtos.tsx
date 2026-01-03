@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: 1,
+    name: "Tábua P",
+    description:
+      "Tábua P Ideal para 1-2 pessoas Torradas, 3 tipos de queijo, 3 tipos de charcutaria, uvas sem sementes, tâmaras recheadas de morango, oleaginosas, frutas secas, geleia e dois antepastos. Dispostos em uma tábua de mdf laminado de 30 cm. Foto ilustrativa, itens e montagem podem variar. sujeito à disponibilidade de estoque.",
+    price: 200.0,
+    image: "/images/Tabua P.jpg",
+    category: "Casal",
+  },
+  {
+    id: 2,
+    name: "Tábua Família",
+    description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
+    price: 250.0,
+    image: "/images/Tabua M.jpg",
+    category: "Família",
+  },
+  {
+    id: 3,
+    name: "Tábua Família",
+    description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
+    price: 250.0,
+    image: "/images/Tabua G.jpg",
+    category: "Família",
+  },
+  {
+    id: 4,
+    name: "Tábua Família",
+    description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
+    price: 250.0,
+    image: "/images/tabua2.jpg",
+    category: "Família",
+  },
+  {
+    id: 5,
+    name: "Tábua Família",
+    description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
+    price: 250.0,
+    image: "/images/tabua2.jpg",
+    category: "Família",
+  },
+  {
+    id: 6,
+    name: "Tábua Família",
+    description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
+    price: 250.0,
+    image: "/images/tabua2.jpg",
+    category: "Família",
+  },
+];

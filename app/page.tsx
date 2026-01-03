@@ -1,58 +1,9 @@
+"use client";
+
+import { products } from "./data/produtos";
 import Image from "next/image";
 
 export default function Home() {
-  // data/products.ts
-  const products = [
-    {
-      id: 1,
-      name: "Tábua P",
-      description: "1 Tipo de Queijo, 1 Tipo de Uvas, morangos e mel.",
-      price: 120.0,
-      image: "/images/Tabua P.jpg",
-      category: "Casal",
-    },
-    {
-      id: 2,
-      name: "Tábua Família",
-      description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
-      price: 250.0,
-      image: "/images/Tabua M.jpg",
-      category: "Família",
-    },
-    {
-      id: 3,
-      name: "Tábua Família",
-      description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
-      price: 250.0,
-      image: "/images/Tabua G.jpg",
-      category: "Família",
-    },
-    {
-      id: 4,
-      name: "Tábua Família",
-      description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
-      price: 250.0,
-      image: "/images/tabua2.jpg",
-      category: "Família",
-    },
-    {
-      id: 5,
-      name: "Tábua Família",
-      description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
-      price: 250.0,
-      image: "/images/tabua2.jpg",
-      category: "Família",
-    },
-    {
-      id: 6,
-      name: "Tábua Família",
-      description: "Mix de salames, 4 tipos de queijos e pães artesanais.",
-      price: 250.0,
-      image: "/images/tabua2.jpg",
-      category: "Família",
-    },
-  ];
-
   return (
     <main className="min-h-screen  pb-10 bg-linear-to-b from-olive via-green-900 to-green-950">
       <header className="p-4 text-white text-center flex flex-col items-center">
@@ -89,12 +40,9 @@ export default function Home() {
                     R$ {product.price}
                   </span>
                 </div>
-                <p className="text-gray-500 font-serif text-sm mt-1">
-                  {product.description}
-                </p>
 
                 <a
-                  href={`https://wa.me/+559988092492?text=Olá, quero pedir a ${product.name} ${product.image}`}
+                  href={`/produto/${product.id}`}
                   target="_blank"
                   className="mt-4 block w-full bg-green-600 text-white text-center py-3 rounded-lg font-serif hover:bg-green-700 transition"
                 >
