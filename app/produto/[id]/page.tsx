@@ -41,7 +41,7 @@ export default async function ProdutoPage({
               </p>
               <a
                 href={
-                  "https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20do%20produto:%20" +
+                  "https://wa.me/+559988092492?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20do%20produto:%20" +
                   encodeURIComponent(product.name) +
                   "%20-%20com%20a%20seguinte%20descrição:%20" +
                   encodeURIComponent(product.description)
