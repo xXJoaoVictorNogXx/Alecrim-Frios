@@ -16,6 +16,30 @@ export default function Home() {
       </header>
 
       <div className="p-4">
+        <h2 className="text-lg font-serif text-beige mb-4">
+          Bem-vindo ao Alecrim Frios!
+        </h2>
+        <h2 className="text-beige font-serif mb-2">Quem somos</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+            <div className="relative h-110 w-full">
+              <Image
+                src="/quem somos.jpg"
+                alt="Quem Somos"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <div className="p-4">
+              <div className="flex justify-between items-start">
+                <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-serif"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="p-4">
         <h2 className="text-lg font-serif text-beige mb-4">Nosso Cardápio</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

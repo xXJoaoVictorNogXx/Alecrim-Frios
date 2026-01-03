@@ -45,7 +45,7 @@ export default async function ProdutoPage({
                   R$ {product.price}
                 </span>
               </div>
-              <p className="text-gray-500 font-serif text-sm mt-1">
+              <p className="text-gray-500 font-serif text-sm mt-1 whitespace-pre-line">
                 {product.description}
               </p>
               <a
