@@ -33,7 +33,13 @@ export default function Home() {
 
             <div className="p-4">
               <div className="flex justify-between items-start">
-                <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-serif"></span>
+                <span className="text-gray-900 font-serif">
+                  Aqui, cada detalhe importa. Por trás de cada tábua montada,
+                  existe o carinho e a dedicação da Conceição, que seleciona
+                  pessoalmente os melhores ingredientes para tornar o seu
+                  momento especial. Mais do que frios, servimos experiências
+                  para você compartilhar com quem ama
+                </span>
               </div>
             </div>
           </div>

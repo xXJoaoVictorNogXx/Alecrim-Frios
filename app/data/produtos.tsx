@@ -75,7 +75,7 @@ export const products = [
     id: 9,
     name: "Mesa de Frios Alecrim",
     description:
-      "O kit contém croissant, torrada, pão de queijo, suco, Nescau, Danone, geleia, pão de mel, Waffle, biscoitos, marshmallows e frutas. Traz ainda potinho com M&M’s e cone com guloseimas. Disponível em versão menino ou menina, os itens vêm dispostos sob o conceito Grazing Food (comida à disposição) em uma base de madeira Pinus, finalizado com saco em celofane e acompanha cartão.\n Foto ilustrativa, itens e montagem podem variar.",
+      "Mix de produtos para coffee break, café da manhã e brunch, com torradas, pães, terrines, antepastos, queijos e charcutarias, ideal para eventos sociais e corporativos.\n Disponibilidade sob consulta e orçamento personalizado diretamente comigo",
     price: "Orçamento Personalizado",
     image: "/images/mesa de frios.jpg",
     category: "Família",
