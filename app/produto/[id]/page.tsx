@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { products } from "../../data/produtos";
+import { FormasPagamento } from "@/app/components/formas-pagamento";
 
 export default async function ProdutoPage({
   params,
@@ -57,6 +58,7 @@ export default async function ProdutoPage({
               >
                 Pedir no WhatsApp
               </a>
+              <FormasPagamento />
             </div>
           </div>
         </div>
