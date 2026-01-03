@@ -40,7 +40,12 @@ export default async function ProdutoPage({
                 {product.description}
               </p>
               <a
-                href={`/produto/${product.id}`}
+                href={
+                  "https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20do%20produto:%20" +
+                  encodeURIComponent(product.name) +
+                  "%20-%20com%20a%20seguinte%20descrição:%20" +
+                  encodeURIComponent(product.description)
+                }
                 target="_blank"
                 className="mt-4 block w-full bg-green-600 text-white text-center py-3 rounded-lg font-serif hover:bg-green-700 transition"
               >
