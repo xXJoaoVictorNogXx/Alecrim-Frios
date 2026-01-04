@@ -73,9 +73,9 @@ export const products = [
   },
   {
     id: 9,
-    name: "Estação de Frios Alecrim",
+    name: "Estação Móvel de Frios Alecrim",
     description:
-      "Mix de produtos para coffee break, café da manhã e brunch, com torradas, pães, terrines, antepastos, queijos e charcutarias, ideal para eventos sociais e corporativos.\n Disponibilidade sob consulta e orçamento personalizado diretamente comigo",
+      "Uma experiência elegante e funcional para eventos internos ou externos. Serviço completo em mini tábuas com 12 itens selecionados, definidos de acordo com o cardápio no fechamento do pedido.",
     price: "Orçamento Personalizado",
     image: "/images/mesa de frios.jpg",
     category: "Família",
