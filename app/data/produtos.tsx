@@ -73,7 +73,7 @@ export const products = [
   },
   {
     id: 9,
-    name: "Mesa de Frios Alecrim",
+    name: "Estação de Frios Alecrim",
     description:
       "Mix de produtos para coffee break, café da manhã e brunch, com torradas, pães, terrines, antepastos, queijos e charcutarias, ideal para eventos sociais e corporativos.\n Disponibilidade sob consulta e orçamento personalizado diretamente comigo",
     price: "Orçamento Personalizado",
